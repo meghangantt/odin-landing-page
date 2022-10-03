@@ -9,14 +9,14 @@ div {
 }
 
 .big-box {
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .big-box.two,
 .big-box.three {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 /*Navy boxes*/
@@ -114,6 +114,10 @@ button,
 }
 
 /*Random info icons*/
+.two h2 {
+    padding-top: 2%;
+}
+
 .two .medium-box {
     display: flex;
     justify-content: space-between;
@@ -126,18 +130,17 @@ button,
 
 /*Call to action box*/
 .four .small-box {
-    width: 78%;
+    width: 81.7%;
 }
 
 .big-box.four {
     background-color: white;
     border: 1px solid white;
+    justify-content: space-between;
 }
 
 .four .medium-box {
     display: flex;
-    margin-left: 12%;
-    margin-right: 12%;
     margin-top: 4%;
     margin-bottom: 4%;
 }
@@ -149,6 +152,6 @@ button,
 
 .four h3,
 .four p {
-    padding-left: 20%;
+    padding-left: 14.5%;
 }
 
