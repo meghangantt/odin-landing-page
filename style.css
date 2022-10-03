@@ -100,3 +100,8 @@ button,
 .one .small-box a {
     padding-top: 0px;
 }
+
+.one .small-box.vertical {
+    flex-direction: column;
+    align-items: flex-start;
+}
