@@ -115,7 +115,7 @@ button,
 
 /*Call to action box*/
 .four .small-box {
-    width: 80%;
+    width: 78%;
 }
 
 .four .medium-box {
@@ -127,7 +127,12 @@ button,
 }
 
 .four button {
-    height: 20%;
+    height: min-content;
     align-self:center;
+}
+
+.four h3,
+.four p {
+    padding-left: 20%;
 }
 
