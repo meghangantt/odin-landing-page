@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
 }
 
 div {
@@ -25,10 +26,20 @@ div {
     color: #E5E7EB;
 }
 
+.two,
+.four {
+    background-color: white;
+    box-shadow: 0 0 0 100vmax white;
+    clip-path: inset(0 -100vmax);
+}
+
 /*Quotation box*/
-.three {
+.big-box.three {
     background-color: #E5E7EB;
     color: #1F2937;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 0 0 100vmax #E5E7EB;
+    clip-path: inset(0 -100vmax);
 }
 
 .three q {
@@ -116,6 +127,11 @@ button,
 /*Call to action box*/
 .four .small-box {
     width: 78%;
+}
+
+.big-box.four {
+    background-color: white;
+    border: 1px solid white;
 }
 
 .four .medium-box {
