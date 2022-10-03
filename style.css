@@ -37,7 +37,7 @@ div {
 .big-box.three {
     background-color: #E5E7EB;
     color: #1F2937;
-    border: 1px solid #E5E7EB;
+    border: 30px solid #E5E7EB;
     box-shadow: 0 0 0 100vmax #E5E7EB;
     clip-path: inset(0 -100vmax);
 }
@@ -79,7 +79,6 @@ button,
 .one h3 {
     font-size: 24px;
     color: #F9FAF8;
-    padding-top: 0px;
 }
 
 /*Centered text*/
@@ -155,3 +154,13 @@ button,
     padding-left: 14.5%;
 }
 
+button {
+    border-radius: 8%;
+    border-style: solid;
+    border-color: #3882F6;
+    padding: 5px;
+}
+
+.four button {
+    border-color: white;
+}
