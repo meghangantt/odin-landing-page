@@ -12,6 +12,12 @@ div {
     margin-right: 8vw;
 }
 
+.big-box.two,
+.big-box.three {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 /*To delete later: box outlines*/
 .big-box {
     border: 10px solid black;
@@ -80,7 +86,8 @@ button,
 
 /*Centered text*/
 .five,
-.two h2 {
+.two h2,
+.three q {
     display: flex;
     justify-content: center;
 }
@@ -111,6 +118,10 @@ button,
 /*Random info icons*/
 .two .medium-box {
     display: flex;
-    justify-content: center;
-    gap: 3vw;
+    justify-content: space-between;
 }
+
+.three p {
+    text-align: right;
+}
+
