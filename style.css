@@ -3,6 +3,28 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+div {
+    box-sizing: border-box;
+}
+
+.big-box {
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+/*To delete later: box outlines*/
+.big-box {
+    border: 10px solid black;
+}
+
+.medium-box {
+    border: 10px solid blue;
+}
+
+.small-box {
+    border: 10px solid green;
+}
+
 /*Navy boxes*/
 .one,
 .five {
@@ -53,9 +75,28 @@ button,
 .one h3 {
     font-size: 24px;
     color: #F9FAF8;
+    padding-top: 0px;
 }
 
+/*Copyright message*/
 .five {
     display: flex;
     justify-content: center;
+}
+
+/*Top line - header logo and links*/
+.one .medium-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one .small-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.one .small-box a {
+    padding-top: 0px;
 }
