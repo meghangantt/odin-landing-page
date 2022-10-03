@@ -1,0 +1,55 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Navy boxes*/
+.big-box.one,
+.big-box.five {
+    background-color: #1F2937;
+}
+
+/*Quotation box*/
+.three {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.three q {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/*Royal blue elements*/
+button,
+.four .small-box {
+    background-color: #3882F6;
+}
+
+/*Random information header*/
+.two h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+/*"This website is awesome*/
+.one .small-box h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+/*Website is awesome subtext*/
+.one .small-box {
+    font-size: 18px;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
+/*Header logo*/
+.one h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
