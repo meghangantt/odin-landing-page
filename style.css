@@ -8,27 +8,14 @@ div {
 }
 
 .big-box {
-    margin-left: 8vw;
-    margin-right: 8vw;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .big-box.two,
 .big-box.three {
     padding-left: 20%;
     padding-right: 20%;
-}
-
-/*To delete later: box outlines*/
-.big-box {
-    border: 10px solid black;
-}
-
-.medium-box {
-    border: 10px solid blue;
-}
-
-.small-box {
-    border: 10px solid green;
 }
 
 /*Navy boxes*/
@@ -121,7 +108,26 @@ button,
     justify-content: space-between;
 }
 
+/*Quote credit alignment*/
 .three p {
     text-align: right;
+}
+
+/*Call to action box*/
+.four .small-box {
+    width: 80%;
+}
+
+.four .medium-box {
+    display: flex;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.four button {
+    height: 20%;
+    align-self:center;
 }
 
