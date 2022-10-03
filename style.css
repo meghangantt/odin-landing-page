@@ -78,8 +78,9 @@ button,
     padding-top: 0px;
 }
 
-/*Copyright message*/
-.five {
+/*Centered text*/
+.five,
+.two h2 {
     display: flex;
     justify-content: center;
 }
@@ -101,7 +102,15 @@ button,
     padding-top: 0px;
 }
 
+/*Website is awesome box*/
 .one .small-box.vertical {
     flex-direction: column;
     align-items: flex-start;
+}
+
+/*Random info icons*/
+.two .medium-box {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
 }
