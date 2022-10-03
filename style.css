@@ -4,9 +4,10 @@ body {
 }
 
 /*Navy boxes*/
-.big-box.one,
-.big-box.five {
+.one,
+.five {
     background-color: #1F2937;
+    color: #E5E7EB;
 }
 
 /*Quotation box*/
@@ -23,8 +24,9 @@ body {
 
 /*Royal blue elements*/
 button,
-.four .small-box {
+.four .medium-box {
     background-color: #3882F6;
+    color: #E5E7EB;
 }
 
 /*Random information header*/
@@ -45,11 +47,15 @@ button,
 .one .small-box {
     font-size: 18px;
     font-weight: 300;
-    color: #E5E7EB;
 }
 
 /*Header logo*/
 .one h3 {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.five {
+    display: flex;
+    justify-content: center;
 }
