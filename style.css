@@ -86,24 +86,35 @@ button,
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-block: 0;
 }
 
 /*Main header subtext*/
 .one .small-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
     font-size: 18px;
     font-weight: 300;
+    gap: 5%;
+    padding-bottom: 8%;
 }
 
 /*Main header box*/
 .one .small-box.vertical {
     flex-direction: column;
     align-items: flex-start;
+    align-content: flex-start;
 }
 
 /*Header logo*/
 .one h3 {
     font-size: 24px;
     color: #F9FAF8;
+    align-content: flex-start;
+    margin-block-start: 0;
+    margin-block-start: 0;
 }
 
 /*Centered text*/
@@ -118,13 +129,7 @@ button,
 .one .medium-box {
     display: flex;
     justify-content: space-between;
-}
-
-.one .small-box {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 50%;
+    gap: 5%;
 }
 
 /*Quote credit alignment*/
@@ -179,6 +184,7 @@ img {
 
 .one img {
     width: 50%;
+    height: 25%;
 }
 
 .two img {
