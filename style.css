@@ -111,16 +111,12 @@ button,
 /*Header logo*/
 .one h3 {
     font-size: 24px;
-    color: #F9FAF8;
-    align-content: flex-start;
-    margin-block-start: 0;
-    margin-block-start: 0;
+    margin-block: 0;
 }
 
 /*Centered text*/
 .five,
-.two h2,
-.three q {
+.two h2 {
     display: flex;
     justify-content: center;
 }
@@ -130,6 +126,7 @@ button,
     display: flex;
     justify-content: space-between;
     gap: 5%;
+    color: #E5E7EB
 }
 
 /*Quote credit alignment*/
