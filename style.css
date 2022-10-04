@@ -166,3 +166,20 @@ button {
 .big-box.five {
     height: min-content;
 }
+
+/*Images*/
+img {
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.one img {
+    width: 50%;
+}
+
+.two img {
+    width: 100px;
+    height: 100px;
+}
+
+
