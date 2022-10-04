@@ -73,6 +73,8 @@ button,
     font-weight: 900;
     color: #1F2937;
     padding-top: 4%;
+    display: flex;
+    justify-content: center;
 }
 
 /*Image icons*/
@@ -121,13 +123,6 @@ button,
 .one h3 {
     font-size: 24px;
     margin-block: 0;
-}
-
-/*Centered text*/
-.five,
-.two h2 {
-    display: flex;
-    justify-content: center;
 }
 
 /*Top line - header logo and links*/
@@ -181,6 +176,9 @@ button {
 /*Copyright message box*/
 .big-box.five {
     height: min-content;
+    margin-block: 0;
+    display: flex;
+    align-items: center;
 }
 
 /*Images*/
