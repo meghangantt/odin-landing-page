@@ -11,10 +11,17 @@ div {
 .big-box {
     margin-left: 15%;
     margin-right: 15%;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
 }
 
 /*Extended padding for boxes two and three*/
-.big-box.two,
+.big-box.two {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
 .big-box.three {
     padding-left: 8%;
     padding-right: 8%;
@@ -70,8 +77,7 @@ button,
 
 /*Image icons*/
 .two .medium-box {
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .two p {
@@ -92,9 +98,9 @@ button,
 /*Main header subtext*/
 .one .small-box {
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: flex-end;
-    width: 50%;
     font-size: 18px;
     font-weight: 300;
     gap: 5%;
@@ -106,6 +112,9 @@ button,
     flex-direction: column;
     align-items: flex-start;
     align-content: flex-start;
+    justify-content: space-between;
+    flex: 1 -2 .5;
+
 }
 
 /*Header logo*/
@@ -148,6 +157,7 @@ button,
 
 .four .medium-box {
     display: flex;
+    gap: 5%;
     margin-top: 4%;
     margin-bottom: 4%;
     padding-left: 11.5%;
@@ -180,13 +190,25 @@ img {
 }
 
 .one img {
-    width: 50%;
-    height: 25%;
+    width: 350px;
+    max-width: 100%;
+    display: flex;
+    align-self: center;
+    margin-left: .1%;
+    flex: 1;
+
 }
 
 .two img {
     width: 160px;
     height: 160px;
+}
+
+.one .medium-box,
+.two .medium-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
 }
 
 
