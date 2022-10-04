@@ -37,9 +37,11 @@ div {
 .big-box.three {
     background-color: #E5E7EB;
     color: #1F2937;
-    border: 30px solid #E5E7EB;
+    border: .1px solid #E5E7EB;
     box-shadow: 0 0 0 100vmax #E5E7EB;
     clip-path: inset(0 -100vmax);
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .three q {
@@ -114,7 +116,7 @@ button,
 
 /*Random info icons*/
 .two h2 {
-    padding-top: 2%;
+    padding-top: 4%;
 }
 
 .two .medium-box {
@@ -125,6 +127,7 @@ button,
 /*Quote credit alignment*/
 .three p {
     text-align: right;
+    width: 100%;
 }
 
 /*Call to action box*/
@@ -134,33 +137,33 @@ button,
 
 .big-box.four {
     background-color: white;
-    border: 1px solid white;
-    justify-content: space-between;
+    border: .1px solid white;
+    
 }
 
 .four .medium-box {
     display: flex;
     margin-top: 4%;
     margin-bottom: 4%;
+    padding-left: 11.5%;
+    padding-right: 11.5%;
+    justify-content: space-between;
 }
 
-.four button {
-    height: min-content;
-    align-self:center;
-}
-
-.four h3,
-.four p {
-    padding-left: 14.5%;
-}
 
 button {
     border-radius: 8%;
     border-style: solid;
     border-color: #3882F6;
     padding: 5px;
+    height: min-content;
 }
 
 .four button {
     border-color: white;
+    align-self:center;
+}
+
+.big-box.five {
+    height: min-content;
 }
