@@ -1,4 +1,4 @@
-
+/*High-level formatting*/
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #1F2937;
@@ -13,6 +13,7 @@ div {
     margin-right: 15%;
 }
 
+/*Extended padding for boxes two and three*/
 .big-box.two,
 .big-box.three {
     padding-left: 8%;
@@ -26,6 +27,7 @@ div {
     color: #E5E7EB;
 }
 
+/*White boxes*/
 .two,
 .four {
     background-color: white;
@@ -55,6 +57,7 @@ button,
 .four .medium-box {
     background-color: #3882F6;
     color: #E5E7EB;
+    border-radius: 5px;
 }
 
 /*Random information header*/
@@ -104,10 +107,6 @@ button,
     width: 50%;
 }
 
-.one .small-box a {
-    padding-top: 0px;
-}
-
 /*Website is awesome box*/
 .one .small-box.vertical {
     flex-direction: column;
@@ -150,9 +149,8 @@ button,
     justify-content: space-between;
 }
 
-
+/*Buttons*/
 button {
-    border-radius: 8%;
     border-style: solid;
     border-color: #3882F6;
     padding: 5px;
@@ -164,6 +162,7 @@ button {
     align-self:center;
 }
 
+/*Copyright message box*/
 .big-box.five {
     height: min-content;
 }
