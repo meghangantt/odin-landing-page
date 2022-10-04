@@ -46,7 +46,7 @@ div {
     padding-bottom: 3%;
 }
 
-.three q {
+.three .quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
@@ -60,24 +60,30 @@ button,
     border-radius: 5px;
 }
 
-/*Random information header*/
+/*Icon images header*/
 .two h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
 }
 
-/*"This website is awesome*/
+/*Main header*/
 .one .small-box h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
-/*Website is awesome subtext*/
+/*Main header subtext*/
 .one .small-box {
     font-size: 18px;
     font-weight: 300;
+}
+
+/*Main header box*/
+.one .small-box.vertical {
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 /*Header logo*/
@@ -107,13 +113,7 @@ button,
     width: 50%;
 }
 
-/*Website is awesome box*/
-.one .small-box.vertical {
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-/*Random info icons*/
+/*Image icons*/
 .two h2 {
     padding-top: 4%;
 }
@@ -124,7 +124,7 @@ button,
 }
 
 /*Quote credit alignment*/
-.three p {
+.three .credit {
     text-align: right;
     width: 100%;
 }
