@@ -65,6 +65,20 @@ button,
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    padding-top: 4%;
+}
+
+/*Image icons*/
+.two .medium-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.two p {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 100px;
 }
 
 /*Main header*/
@@ -111,16 +125,6 @@ button,
     align-items: center;
     justify-content: flex-end;
     width: 50%;
-}
-
-/*Image icons*/
-.two h2 {
-    padding-top: 4%;
-}
-
-.two .medium-box {
-    display: flex;
-    justify-content: space-between;
 }
 
 /*Quote credit alignment*/
